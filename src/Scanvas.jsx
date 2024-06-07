@@ -26,7 +26,7 @@ const ObjectController = () => {
 
     return (
         <mesh ref={meshRef} position={[0, 0.5, 0]} castShadow>
-            <boxGeometry args={[1, 1, 1]} />
+            <sphereGeometry args={[15, 32, 16 ]} />
             <meshStandardMaterial metalness={1} roughness={0} color="orange" />
         </mesh>
     )
